@@ -1,0 +1,28 @@
+header {
+    background-color: rgba(0, 0, 0, 0.918);
+    height: 70px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a {
+    color: white;
+    font-size: 10px;
+    font-family: "Rubik Mono One", monospace;
+    font-style: normal;
+    margin-left: 10px;
+    background-color: rgba(248, 11, 11, 0.806);
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+header nav a:hover {
+    color:rgba(0, 0, 0, 0.806);
+    transition: 0.3s ease-in
+}
+
+.logo img {
+    width: 35%;
+}

@@ -10,8 +10,8 @@ ul li {
     list-style: none
 }
 
-.logo {
-    width: 30%;
+.logo img {
+    width: 35%;
 }
 
 header {
@@ -46,9 +46,11 @@ div {
 }
 
 
-div img {
+main div img {
     width: 50%;
     border-radius: 5%;
+    box-shadow: 15px 10px 10px rgb(74, 74, 74) ;
+    
 }
 
 h1 {
@@ -71,17 +73,14 @@ p {
     font-family: "Poppins", sans-serif;
     font-weight: 300;
     font-style: italic;
-    text-align: center;
+    
 }
 
-
-#icons {
-    display: flex;
-}
 
 footer {
     height: 150px;
     background-color: rgba(0, 0, 0, 0.918);
+    text-align: center;
 }
 
 footer p {
@@ -101,7 +100,7 @@ footer p {
     display: inline-block;
 }
 
-#icons a {
+#icons a img{
     display: inline-block;
     margin: 0 10px;
     /* Add some margin between the icons */
@@ -114,13 +113,18 @@ hr {
 
 @media screen and (min-width: 768px){
     header {
-            height: 120px;
+            height: 160px;
+            padding: 0 60px;
         }
     
         header nav a {
             font-size: 17px;
             margin-left: 50px;
             padding: 12px 15px;
+        }
+
+        .logo img {
+            width: 45%;
         }
     
         h1 {
@@ -129,6 +133,10 @@ hr {
     
         h2 {
             font-size: 60px;
+        }
+
+        div img {
+            width: 40%;
         }
     
         p {

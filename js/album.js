@@ -19,9 +19,9 @@ class Album {
         coverImg.alt = 'Album Cover';
         albumDiv.appendChild(coverImg);
 
-        const descriptionPara = document.createElement('p');
-        descriptionPara.textContent = this.description;
-        albumDiv.appendChild(descriptionPara);
+        const description = document.createElement('p');
+        description.textContent = this.description;
+        albumDiv.appendChild(description);
 
         container.appendChild(albumDiv);
     }

@@ -27,7 +27,7 @@ const albumsData = [
     {
         name: 'R.E.M - Out of Time',
         cover: './images/Out of Time.jpg',
-        description: 'Fine Line is the second studio album by English singer and songwriter Harry Styles, released on 13 December 2019 by Columbia Records and Erskine. This album themes revolve around breakups, happiness, sex and sadness.'
+        description: 'Out of Time is the seventh studio album by American alternative rock band R.E.M., released on March 12, 1991, by Warner Bros. Records. With Out of Time, R.E.M. status grew from that of a cult band to a massive international act.'
     },
     {
         name: 'Harry Style - Fine Line',
@@ -37,13 +37,12 @@ const albumsData = [
     {
         name: 'Taylor Swift - 1989 (Taylor Version)',
         cover: './images/1989 (Taylor Version).png',
-        description: 'Fine Line is the second studio album by English singer and songwriter Harry Styles, released on 13 December 2019 by Columbia Records and Erskine. This album themes revolve around breakups, happiness, sex and sadness.'
+        description: '1989 (Taylor Version) is the fourth re-recorded album by the American singer-songwriter Taylor Swift. It is a re-recording of Swift fifth studio album, 1989, and was released on October 27, 2023, by Republic Records.'
     },
     
 ];
 
-// Display albums on the page
-const albumsContainer = 'albums'; // ID of the container element where albums will be displayed
+const albumsContainer = 'albums';
 
 albumsData.forEach(albumData => {
     const album = new Album(albumData.name, albumData.cover, albumData.description);

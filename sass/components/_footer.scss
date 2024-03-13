@@ -1,0 +1,33 @@
+footer {
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.918);
+    text-align: center;
+}
+
+footer p {
+    font-size: 10px;
+    font-style: normal;
+    color: white;
+}
+
+#icons-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#icons {
+    display: inline-block;
+}
+
+#icons a img {
+    display: inline-block;
+    margin: 0 10px;
+    /* Add some margin between the icons */
+}
+
+hr {
+    margin: 50px;
+    color: rgb(200, 200, 200);
+}
